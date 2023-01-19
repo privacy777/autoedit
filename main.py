@@ -233,4 +233,5 @@ def menu():
         combocleaner()
     else:
         sys.exit()
-menu()
+if __name__ == "__main__":
+    menu()
